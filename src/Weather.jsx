@@ -31,7 +31,7 @@ function Weather() {
     setCountry(country);
     setPlacename(name);
   };
-  const timeOut = setTimeout(changeTemp, 200);
+  setTimeout(changeTemp, 100);
   const date = new Date();
   const day = date.getDate();
   const month = date.getMonth();
